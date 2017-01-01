@@ -1,0 +1,220 @@
+@charset "utf-8";
+/*公用样式*/
+
+/*清除浮动*/
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+body
+{
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; 
+	background-color: #fff;
+}
+
+/*头部公用样式*/
+header
+{
+	width: 100%;
+	min-width: 980px;
+	height: auto;
+}
+header .nav-menu
+{
+	width: 100%;
+	height: 52px;
+	background-color: #c8bb9b;
+}
+header .nav-menu ul
+{
+	width: 980px;
+	margin:0 auto;
+	height: 52px;
+}
+header .nav-menu ul li
+{
+	width: 100px;
+	height: 52px;
+	float: left;
+	color: #fff;
+	margin-left: 18px;
+}
+header .nav-menu ul li[class=menu-one]
+{
+	margin-left: 0px;
+}
+header .nav-menu ul li[class=menu-logo]
+{
+	width: 271px;
+	height: 52px;
+	margin-left: 10px;
+}
+header .nav-menu ul li .menu-item
+{
+	width: 100px;
+	height: 52px;
+	text-align: center;
+}
+header .user-list
+{
+	width: 100%;
+	height: auto;
+	background-color: #fefaec;
+}
+header .user-list ul
+{
+	width: 980px;
+	height: 25px;
+	margin:0 auto;
+}
+header .user-list ul .list-phone
+{
+	height: 25px;
+	margin-right: 15px;
+	float: left;
+	line-height: 25px;
+	text-align: left;
+	color:#ff4001;
+	font-size: 15px;
+}
+header .user-list ul .list-userInfo
+{
+	float: right;
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+	font-size: 15px;
+	margin-right: 15px;
+}
+header .user-list ul .list-userInfo a
+{
+	color:#ff4001;
+	margin:0 5px;
+}
+header .user-list ul .list-userInfo .sx
+{
+	height: 17px;
+	line-height: 17px;
+	font-size: 15px;
+	color:#847a79;
+}
+header .user-list ul .list-userInfo a .num
+{
+	color: #ff4001;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+/*尾部公用样式*/
+footer
+{
+	width: 100%;
+	min-width: 980px;
+	height: 280px;
+	background-color: #FEFAEC;
+	padding-top: 10px;
+}
+footer .footer-head
+{
+	width: 980px;
+	height: 55px;
+	margin:0 auto;
+	padding-top:10px;
+	position: relative; 
+	background: url(../images/bgimg/linebg.png) no-repeat center bottom;
+	margin-bottom: 5px;
+}
+footer .footer-center .footer-head .footer-logo
+{
+	float: left;
+}
+footer .footer-center .footer-head .footer-logo img
+{
+	width: 258px;
+	height: 55px;
+}
+footer .footer-center .footer-head i
+{
+	float: left;
+	width: 110px;
+	height: 20px;
+	color:#ad9a55;
+	margin-top:30px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight:bold;
+	font-style: normal;
+}
+footer .footer-center .footer-mid
+{
+	width: 958px;
+	height: 73px;
+	line-height: 73px;
+	padding-left: 22px;
+	margin:0 auto;
+	background:url(../images/bgimg/linebg2.png) no-repeat center bottom;
+}
+footer .footer-center .footer-mid ul
+{
+}
+footer .footer-center .footer-mid ul li
+{
+	float: left;
+	width: 159px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	margin-top: 10px;
+}
+footer .footer-center .footer-mid ul li img
+{
+	width: 52px;
+	height: 52px;
+	float: left;
+}
+footer .footer-center .footer-mid ul li i
+{
+	font-style: normal;
+	color:#c2af6b;
+	font-weight: bold;
+	margin-left: 5px;
+}
+footer .footer-center .footer-foot
+{
+	width: 745px;
+	height: 160px;
+	margin:0 auto;
+}
+footer .footer-center .footer-foot ul li
+{
+	float: left;
+	margin:20px 0;
+	width: 100px;
+}
+footer .footer-center .footer-foot ul li a
+{
+	font-size: 16px;
+	line-height: 20px;
+	color:#ad9a55;
+	font-weight: bold;
+}
+
+/*内容公用样式*/
+section 
+{
+	width: 100%;
+	min-width: 980px;
+	background: url(../images/bgimg/background.jpg) repeat center top;
+	background-size: 100%;
+	height: 900px;
+}

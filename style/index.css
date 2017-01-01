@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*首页样式*/
+section .banner
+{
+	width: 980px;
+	height: 340px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+section .banner .banner-list
+{
+	width: 5880px;
+	height: 340px;
+	position: absolute;
+}
+section .banner .banner-list img
+{
+	float: left;
+	width: 980px;
+	height: 340px;
+}
+section .banner .banner-nav
+{
+	position: absolute;
+	top: 300px;
+	width: 425px;
+	left: 50%;
+	margin-left: -212px;
+}
+section .banner .banner-nav span
+{
+	display: inline-block;
+	width: 80px;
+	height: 5px;
+	background-color: #7b7171;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	cursor: pointer;
+}
+section .banner .banner-nav .nav-over
+{
+	background-color: #ff4001;
+	opacity:0.8;
+	filter:alpha(opacity=80);	
+}
