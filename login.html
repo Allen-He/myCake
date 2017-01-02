@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+    <meta http-equiv="Content-Language" content="zh-CN">
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.js"></script>
+</head>
+<body>
+	<header>
+		<div class="nav-menu">
+			<ul>
+				<li class="menu-one">
+					<div class="menu-item">
+						<a href="index.html">
+							<img src="images/toplist1.jpg" alt="首页">
+						</a>
+					</div>		
+				</li>
+				<li>
+					<div class="menu-item">
+						<a href="#">
+							<img src="images/toplist2.jpg" alt="蛋糕馆">
+						</a>
+					</div>
+					<ul>
+						<li>
+							<a href="#">芝士口味</a>
+						</li>
+						<li>
+							<a href="#">慕斯口味</a>
+						</li>
+						<li>
+							<a href="#">巧克力味</a>
+						</li>
+						<li>
+							<a href="#">拿破仑味</a>
+						</li>
+						<li>
+							<a href="#">鲜果口味</a>
+						</li>
+						<li>
+							<a href="#">奶油口味</a>
+						</li>
+					</ul>	
+				</li>
+				<li>
+					<div class="menu-item">
+						<a href="#">
+							<img src="images/toplist3.jpg" alt="礼品馆">
+						</a>
+					</div>
+				</li>
+				<li class="menu-logo">
+					<div class="menu-item">
+						<a href="#">
+							<img src="images/toplistlogo.jpg" alt="logo">
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="menu-item">
+						<a href="#">
+							<img src="images/toplist4.jpg" alt="我的诺心">
+						</a>
+					</div>
+					<ul>
+						<li>
+							<a href="#">LECLUB</a>
+						</li>
+						<li>
+							<a href="#">我的订单</a>
+						</li>
+						<li>
+							<a href="#">找回密码</a>
+						</li>
+						<li>
+							<a href="#">礼品专区</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu-item">
+						<a href="#">
+							<img src="images/toplist5.jpg" alt="企业专区">
+						</a>
+					</div>
+					<ul>
+						<li>
+							<a href="#">企业试吃</a>
+						</li>
+						<li>
+							<a href="#">大客户区</a>
+						</li>
+						<li>
+							<a href="#">福利券区</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu-item">
+						<a href="#">
+							<img src="images/toplist6.jpg" alt="关于诺心">
+						</a>
+					</div>
+					<ul>
+						<li>
+							<a href="#">诺心新闻</a>
+						</li>
+						<li>
+							<a href="#">诺心公告</a>
+						</li>
+						<li>
+							<a href="#">公司简介</a>
+						</li>
+						<li>
+							<a href="#">诺心故事</a>
+						</li>
+						<li>
+							<a href="#">品牌理念</a>
+						</li>
+						<li>
+							<a href="#">诺心食材</a>					
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="user-list">
+			<ul>
+				<li class="list-phone">					
+                全国客服热线&nbsp;&nbsp;4001-578-578&nbsp;&nbsp;服务时间&nbsp;&nbsp;8:30-22:30           
+				</li>
+				<li class="list-userInfo">
+					<a href="login.html">登录</a>
+					<span class="sx">|</span>
+					<a href="register.html">注册</a>
+					<span class="sx">|</span>
+					<a href="#">购物车<span class="num" id="num">0</span>件</a>
+					<span class="sx">|</span>
+					<a href="#">帮助</a>
+				</li>
+			</ul>
+		</div>
+	</header>	
+
+	<section>
+		<div class="login">
+			<div class="login-head"></div>
+			<div class="login-sec">
+				<div class="login-sec-t">
+					<h3>用户登录</h3>
+				</div>
+				<div class="login-sec-l">
+					<form>
+						<label>手机号码：<input type="text" name="username"></label>
+						<label>密码：<input type="password" name="password"></label>
+						<label>验证码：
+							<input type="text" name="identify" class="iden">
+							<span class="identify"></span>
+						</label>
+						<div class="login-rem">		
+							<label><input type="checkbox" name="rem">记住用户名</label>			
+						</div>
+
+						<input type="submit" name="login" value="登录">
+						<a href="#" class="forget">忘记密码</a>
+					</form>
+				</div>
+				<div class="login-sec-r">
+					<div class="login-regi">
+						<p>还不是诺心用户？</p>
+						<p>现在免费注册成为诺心会员，体验美味蛋糕新鲜配送上门。</p>
+						<a href="register.html">注册新用户</a>
+					</div>
+					<div class="login-img">
+						<a href="#">
+							<img src="images/loginban.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-center">
+			<div class="footer-head">
+				<div class="footer-logo">
+					<img src="images/but_LOGO.png">
+				</div>
+				<i>新鲜送货上门</i>
+			</div>
+			<div class="footer-mid">
+				<ul>
+					<li>
+						<img src="images/round_L.png">
+						<i>全年无休</i>
+					</li>
+					<li>
+						<img src="images/round_E.png">
+						<i>安全配送</i>
+					</li>
+					<li>
+						<img src="images/round_C.png">
+						<i>品质保证</i>
+					</li>
+					<li>
+						<img src="images/round_A.png">
+						<i>上乘食材</i>
+					</li>
+					<li>
+						<img src="images/round_K.png">
+						<i>专业客服</i>
+					</li>
+					<li>
+						<img src="images/round_E.png">
+						<i>企业采购</i>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-foot">
+				<ul>
+					<li>
+						<a href="#">关于诺心</a>
+					</li>
+					<li>
+						<a href="#">人才招聘</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+					<li>
+						<a href="#">呼叫中心</a>
+					</li>
+					<li>
+						<a href="#">品牌理念</a>
+					</li>
+					<li>
+						<a href="#">客服服务</a>
+					</li>
+					<li>
+						<a href="#">上海工商</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

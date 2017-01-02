@@ -63,7 +63,6 @@ var bannerControl = function(){
 			var nav = navList.eq(timer_in);
 			showBan(nav);
 		}		
-
 	}	
 
 	function play(){
@@ -95,4 +94,96 @@ var bannerControl = function(){
 	//setTimeout(interval,2000);
 }()
 
+var classifyControl = function(){
+	var cl1 = $("#classify1");
+	var cl2 = $("#classify2");
+	var cl3 = $("#classify3");
+	var cl4 = $("#classify4");
+	var cl5 = $("#classify5");
+	var cl6 = $("#classify6");
+	var cld1 = cl1.find("dt");
+	var cld2 = cl2.find("dt");
+	var cld3 = cl3.find("dt");
+	var cld4 = cl4.find("dt");
+	var cld5 = cl5.find("dt");
+	var cld6 = cl6.find("dt");
+	cl1.hover(function(){
+		cld1.stop().animate({
+			left : 0 + "px"
+		},400);
+	},function(){
+		cld1.stop().animate({
+			left : -650 + "px"
+		},400);
+	});
+	cl4.hover(function(){
+		cld4.stop().animate({
+			left : 0 + "px"
+		},400);
+	},function(){
+		cld4.stop().animate({
+			left : -650 + "px"
+		},400);
+	});
+	cl2.hover(function(){
+		cld2.stop().animate({
+			top : 0 + "px"
+		},400);
+	},function(){
+		cld2.stop().animate({
+			top : -410 + "px"
+		},400);
+	});
+	cl5.hover(function(){
+		cld5.stop().animate({
+			top : 0 + "px"
+		},400);
+	},function(){
+		cld5.stop().animate({
+			top : 410 + "px"
+		},400);
+	});
+	cl3.hover(function(){
+		cld3.stop().animate({
+			right : 0 + "px"
+		},400);
+	},function(){
+		cld3.stop().animate({
+			right : -650 + "px"
+		},400);
+	});
+	cl6.hover(function(){
+		cld6.stop().animate({
+			right : 0 + "px"
+		},400);
+	},function(){
+		cld6.stop().animate({
+			right : -650 + "px"
+		},400);
+	});
+}()
+
+var itembuyControl = function(){
+	$("#goodsitem ul").each(function(i){
+		var index = i;
+			$(this).mouseover(function(){
+				$("#goodsitem ul .item-buy").eq(index).stop().animate({
+					top : "220px"
+				},400);
+				console.log("11");
+			});
+
+			$(this).mouseout(function(){
+				$("#goodsitem ul .item-buy").eq(index).stop().animate({
+					top : "322px"
+				},400);
+			});
+	});
+
+	$("#item-buy span").each(function(i){
+		$(this).click(function(){
+			$(this).addClass("size-cho-on").siblings().removeClass("size-cho-on");
+		});
+	});
+}()
 

@@ -1,0 +1,170 @@
+@charset "utf-8";
+/*登录页样式*/
+
+section .login
+{
+	width: 980px;
+	height: auto;
+	margin:0 auto;
+	overflow: hidden;
+}
+section .login .login-head,section .login .regi-head
+{
+	width: 980px;
+	height: 63px;
+	padding-left: 10px;
+	border-top: 1px solid #c8bb9b;
+}
+section .login .login-head
+{
+	background: url(../images/user_login.png) no-repeat 15px top;	
+}
+section .login .regi-head
+{
+	background: url(../images/user_register.png) no-repeat 15px top;
+}
+section .login .login-sec
+{
+	width: 980px;
+}
+section .login .login-sec .login-sec-t
+{
+	width: 980px;
+	height: 30px;
+	border-bottom: 3px solid #ff4001;
+	margin-bottom: 15px;
+}
+section .login .login-sec .login-sec-t h3
+{
+	width: 115px;
+	height: 30px;
+	color: #fff;
+	background-color: #ff4001;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 15px;
+}
+section .login .login-sec .login-sec-l
+{
+	width: 470px;
+	height: auto;
+	float: left;
+}
+section .login .login-sec .login-sec-l form
+{
+	display: block;
+	margin-top: 30px;
+	padding-right: 60px;
+	border-right: 1px solid #e9e9e9;
+}
+section .login .login-sec .login-sec-l form label
+{
+	display: block;
+	width: 434px;
+	margin: 30px auto;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+	height: 38px;
+	line-height: 38px;
+}
+
+section .login .login-sec .login-sec-l form .identify
+{
+	display: inline-block;
+	width: 108px;
+	height: 35px;
+	margin-left: 5px;
+	background-color: #333;
+	vertical-align: top
+}
+section .login .login-sec .login-sec-l form label input
+{
+	width: 292px;
+	height: 35px;
+	font-size: 18px;
+}
+section .login .login-sec .login-sec-l form .iden
+{
+	width: 180px;
+	height: 35px;
+	vertical-align: top
+}
+section .login .login-sec .login-sec-l form .login-rem,section .login .login-sec .login-sec-l form .regi-agree
+{
+	padding-left: 130px;
+}
+section .login .login-sec .login-sec-l form .login-rem label,section .login .login-sec .login-sec-l form .regi-agree label
+{
+	text-align: left;
+	margin:5px 0;
+	font-weight: normal;
+}
+section .login .login-sec .login-sec-l form .login-rem label input,section .login .login-sec .login-sec-l form .regi-agree label input
+{
+	width: 15px;
+	height: 15px;
+	margin:5px;
+	vertical-align: middle;
+}
+section .login .login-sec .login-sec-l form input[type=submit]
+{
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #ff4001;
+	color:#fff;
+	line-height: 34px;
+	margin-left: 130px;
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing:6px;
+	text-indent:6px;
+	text-align: center;
+}
+section .login .login-sec .login-sec-l form .forget
+{
+	margin-left: 15px;
+	font-size: 13px;
+	color: #0561aa;
+}
+section .login .login-sec .login-sec-r
+{
+	width: 508px;
+	height: auto;
+	float: left;
+}
+section .login .login-sec .login-sec-r .login-regi
+{
+	width: 458px;
+	height: auto;
+	margin: 40px 0 20px 50px;
+}
+section .login .login-sec .login-sec-r .login-regi p
+{
+	color: #8f8f8f;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+section .login .login-sec .login-sec-r .login-regi a
+{
+	display:block;
+	width: 90px;
+	height: 25px;
+	color:#fff;
+	background-color: #ff4001;
+	border-radius: 2px;
+	line-height: 24px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+section .login .login-sec .login-sec-r .login-img
+{
+	width: 508px;
+	height: 182px;
+	margin-top: 147px;
+}

@@ -65,6 +65,41 @@ header .nav-menu ul li .menu-item
 	height: 52px;
 	text-align: center;
 }
+header .nav-menu ul li:hover ul
+{
+	display: block;
+}
+header .nav-menu ul li ul
+{
+	width: 127px;
+	height: auto;
+	background-color: rgba(75,75,75,0.5);	
+	z-index: 999;
+	position: absolute;
+	overflow: hidden;
+	margin-left:-10px;
+	display: none;
+}
+header .nav-menu ul li ul li
+{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px dashed #fff;
+	margin-left:12px;
+}
+header .nav-menu ul li ul li a
+{
+	font-size: 18px;
+	color:#fff;
+	padding: 0 10px;
+}
+header .nav-menu ul li ul li a:hover
+{
+	border-bottom: 1px solid #fff;
+}
+
 header .user-list
 {
 	width: 100%;
@@ -216,5 +251,4 @@ section
 	min-width: 980px;
 	background: url(../images/bgimg/background.jpg) repeat center top;
 	background-size: 100%;
-	height: 900px;
 }
